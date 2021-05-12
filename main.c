@@ -9,6 +9,7 @@ void selectionsort (int a[], int n){
     for (int j = 1; j <= i; j++){
       if(a[j] > maior){
         maior = a[j];
+        
         indice = j;
       }
     }
